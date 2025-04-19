@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-image: url(./assets/bgg.png);
+  height: 133vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  z-index: 1000;
+  overflow-x: hidden;
+}
+.hero p{
+  font-size: 23px;
+  line-height: normal;
+}
