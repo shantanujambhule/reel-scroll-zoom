@@ -1,5 +1,5 @@
 
-import { IoIosMenu } from "react-icons/io";
+
 
 const Nav = () => {
 
@@ -15,7 +15,7 @@ const Nav = () => {
       </ul>
       <div className="menu-bar text-xl flex gap-3 items-center md:hidden pr-4 pt-3">
         <p>Menu</p>
-        <IoIosMenu size={40}  />
+
 
       </div>
     </div>
